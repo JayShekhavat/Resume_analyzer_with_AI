@@ -1,0 +1,23 @@
+1. Upload Resume (PDF)
+2. Extract text using (NLP)
+3. Identify skills
+4. match resume with job description
+5. give match score
+
+
+## Component and their tools
+UI -> Streamlit
+NLP -> spaCy
+Text Extraction -> pdfplumber
+ML/NLP -> scikit-learn
+Similarity -> TF-IDF + Cosine Similarity
+
+## Project Folder Structure
+resume_analyzer_app/
+|
+|---app.py
+|---resume-parser.py
+|---skills_matcher.py
+|---requirements.txt
+|---skills.py
+|---sample_resume/
